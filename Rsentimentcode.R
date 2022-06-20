@@ -3,7 +3,7 @@ library("tm")
 library("SnowballC")
 require(xlsx)
 
-setwd("C:/Users/kelleypa.IN-PHYS-2LD169/Dropbox/Masters Report/Revised Masters Report")
+setwd("C:/Users/username/path-to-directory/")
 
 ###################################################   
 ############# STEP 1: IMPORTING ###################
