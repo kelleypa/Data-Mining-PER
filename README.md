@@ -23,6 +23,8 @@ The igraph() function in R, we were able to produce a network plot of the fall 2
 ![image](https://github.com/kelleypa/Data-Mining-PER/assets/107891103/35ddd3cd-1a64-49de-a091-fc9fb20d1c84)
 
 The function walktrap.community() does simulated short random walks to find packed regions of network that form ‘communities’. The following below graph illustrates the coagulation of the scattered network from five steps defining a community. The user id with the highest degree, or largest number of edges, became the name of the community node. The function contract.vertices then graphically merges the nodes into one and with some tweaking of the graph settings, yields the following igraph plot.
+
+Topic Modelling:
 ![image](https://github.com/kelleypa/Data-Mining-PER/assets/107891103/b655596c-e5aa-41e5-b4ce-127408a8f395)
 
 
