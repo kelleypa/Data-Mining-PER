@@ -17,6 +17,7 @@ Around 3000 posts and reflections were recorded in a semester in the 19 weeks of
 # Network Analysis
 
 We made use of some fundamental network visualization tools in R when first experimenting on our data, before heading in the direction of sentiment analysis. We prepared the data by interpreting reflections as connections to the original poster, or user that created the post thread. We arranged the data in a spreadsheet by creating a column of users, labeled by their unique identification numbers, separated by the student (in the From column) in communication to another student (in the To column).
+
 ![image](https://github.com/kelleypa/Data-Mining-PER/assets/107891103/13e665ee-e1af-4e39-8843-0cc58f80f7c5)
 
 The igraph() function in R, we were able to produce a network plot of the fall 2014 semester, as an example. The initial plot was extremely tangled with their id number as individual nodes. Several functions exist to condense the jumbled mess into something more coherent. The function walktrap.community() does simulated short random walks to find packed regions of network that form ‘communities’. The following below graph illustrates the coagulation of the scattered network from five steps defining a community. The user id with the highest degree, or largest number of edges, became the name of the community node. The function contract.vertices then graphically merges the nodes into one and with some tweaking of the graph settings, yields the following igraph plot.
