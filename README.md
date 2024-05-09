@@ -15,8 +15,29 @@ Around 3000 posts and reflections were recorded in a semester in the 19 weeks of
 
 # Network Analysis
 
+![image](https://github.com/kelleypa/Data-Mining-PER/assets/107891103/35ddd3cd-1a64-49de-a091-fc9fb20d1c84)
+
+
+![image](https://github.com/kelleypa/Data-Mining-PER/assets/107891103/b655596c-e5aa-41e5-b4ce-127408a8f395)
+
+
 # Syuzhet Package and NRC Lexicon: Eight Emotions & Two Sentiments
-Word- Emotion Lexicon
+
+
+“Syuzhet" comes from the Russian Formalists Victor Shklovsky and Vladimir Propp 
+* 2 components of narrative, the "fabula" and the "syuzhet" 
+* syuzhet refers to the "device" or technique of a narrative
+* fabula is the chronological order of events
+* Syuzhet is concerned with the manner in which the elements of the story (fabula) are organized (syuzhet) 
+
+Mathew Jockers, Nebraska Literary Lab
+4 Word- Emotion Lexicons:
+* "afinn" developed by Finn Årup Nielsen
+* "bing" developed by Minqing Hu and Bing Liu
+* "nrc" developed by Mohammad, Saif M. and Turney, Peter D
+* “stanford” developed by The Stanford CoreNLP
+
+Word- Emotion Lexicon Structure:
 * Sentiment: positive, negative
 * Eight Emotions: joy, trust, anticipation, surprise, sadness, fear, anger, digust
 
