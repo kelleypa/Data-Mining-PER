@@ -59,4 +59,5 @@ Word- Emotion Lexicon Structure:
 * No link found between time of CN usage and student sentiment/performance
 * CN can be used night or day
 
-# For more details, check out my Master's Report (IUPUI_Master_Report.pdf).
+# For more details:
+Check out my Master's Report (IUPUI_Master_Report.pdf) in this repository directory
